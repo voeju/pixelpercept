@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="AnchorPane" maxHeight="600.0" maxWidth="350.0" prefHeight="600.0" prefWidth="350.0" style="-fx-background-color: #e9c46a;" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="de.uni_hannover.pixelpercept.controller.ManualWindow">
+    <children>
+
+        <VBox fx:id="VBox" maxHeight="600.0" maxWidth="350.0" prefHeight="600.0" prefWidth="350.0" style="-fx-background-color: #e9c46a;" VBox.vgrow="ALWAYS">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+
+            <Text fx:id="title" text="PixelPercept - Manual" textAlignment="CENTER" VBox.vgrow="ALWAYS">
+                <font>
+                    <Font size="24.0" />
+                </font>
+                <VBox.margin>
+                    <Insets bottom="15.0" />
+                </VBox.margin>
+            </Text>
+
+            <Label fx:id="text_1" text="This app is a replica of the game pictionary. A neural network will detect what you have painted." wrapText="true" VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets bottom="15.0" />
+                </VBox.margin>
+            </Label>
+            <Label fx:id="text_2" text="How it works:" wrapText="true" VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets bottom="5.0" />
+                </VBox.margin>
+            </Label>
+            <Label fx:id="text_3" text="1. At first choose one of the displayed words. The network is trained to detect one of the following images: bowtie, cloud, envelope, sun and t-shirt." wrapText="true" VBox.vgrow="ALWAYS" />
+            <Label fx:id="text_4" text="2. Then paint the desired image." wrapText="true" VBox.vgrow="ALWAYS" />
+            <Label fx:id="text_5" text="3. You can also erase bit by bit what you've painted or clear the whole canvas." wrapText="true" VBox.vgrow="ALWAYS" />
+            <Label fx:id="text_6" text="4. To let the neural network guess what you've painted just press the recognize button." wrapText="true" VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets bottom="50.0" />
+                </VBox.margin></Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                <children>
+                    <Button id="playButton" alignment="CENTER" mnemonicParsing="false" onAction="#onPLayButtonClicked" style="-fx-background-color: #e76f51;" text="understood &amp; play">
+                        <font>
+                            <Font name="Courier New" size="12.0" />
+                        </font>
+                        <padding>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </padding>
+                    </Button>
+                </children>
+            </HBox>
+
+            <Region VBox.vgrow="ALWAYS" />
+            <Label fx:id="text_7" text="This app was developed by students during summer term 2023 at Leibniz University Hannover." wrapText="true" VBox.vgrow="ALWAYS" />
+        </VBox>
+    </children>
+</AnchorPane>

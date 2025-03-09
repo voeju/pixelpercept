@@ -1,0 +1,102 @@
+.root{
+    -fx-font-family: "Courier New";
+    -fx-text-fill: "#264653";
+}
+
+.label{
+    -fx-font-family: "Courier New";
+    -fx-text-fill: "#264653";
+}
+
+#Hbox{
+    -fx-font-size: 18;
+}
+
+#menuBar{
+    -fx-background-color: "#2a9d8f";
+}
+
+#Hbox{
+    -fx-background-color: "#e9c46a"
+}
+
+#titleLabel{
+    -fx-font-size: 60;
+}
+
+#buttonClear{
+    -fx-font-family: "Courier New";
+    -fx-background-color: transparent;
+    -fx-font-size: 18px;
+    -fx-padding: 15px 15px;
+    -fx-border-radius: 0 11 11 0;
+    -fx-border-color: "#e76f51";
+    -fx-border-width: 2 2 2 0;
+}
+
+#buttonClear:hover {
+    -fx-background-color: "#e76f51";
+    -fx-border-radius: 0 11 11 0;
+    -fx-background-radius: 0 11 11 0;
+}
+
+#buttonRecognize{
+    -fx-font-family: "Courier New";
+    -fx-background-color: transparent;
+    -fx-font-size: 18px;
+    -fx-padding: 15px 15px;
+    -fx-border-radius: 0 11 11 0;
+    -fx-border-color: "#e76f51";
+    -fx-border-width: 2 2 2 0;
+}
+
+#buttonRecognize:hover {
+    -fx-background-color: "#e76f51";
+    -fx-border-radius: 0 11 11 0;
+    -fx-background-radius: 0 11 11 0;
+}
+
+#buttonSelected{
+    -fx-font-family: "Courier New";
+    -fx-background-color: transparent;
+    -fx-font-size: 18px;
+    -fx-padding: 15px 15px;
+    -fx-border-radius: 0 11 11 0;
+    -fx-border-color: "#e76f51";
+    -fx-border-width: 2 2 2 0;
+}
+
+#buttonSelected:hover {
+    -fx-background-color: "#e76f51";
+    -fx-border-radius: 0 11 11 0;
+    -fx-background-radius: 0 11 11 0;
+}
+
+#VBOX{
+    -fx-background-color: "#e9c46a"
+}
+
+#stackPane_center{
+    -fx-background-color: "#e9c46a";
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-color: "#e76f51";
+    -fx-border-radius: 11px;
+}
+
+#stackPane_right{
+    -fx-background-color: "#e9c46a";
+}
+
+#stackPane_left{
+    -fx-background-color: "#e9c46a";
+}
+
+#stackPane_bottom{
+    -fx-background-color: "#e9c46a";
+}
+
+#t_result{
+    -fx-font-size: 18;
+    -fx-text-fill: "#264653";
+}

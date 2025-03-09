@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane stylesheets="@helloapplication.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.uni_hannover.pixelpercept.PixelPerceptController">
+
+    <padding>
+        <Insets bottom="0.0" left="0.0" right="0.0" top="0.0" />
+    </padding>
+
+    <top>
+        <VBox fx:id="Vbox">
+            <MenuBar fx:id="menuBar">
+                <Menu fx:id="menu" text="Menu">
+                    <MenuItem onAction="#onExit" text="Exit" />
+                </Menu>
+            </MenuBar>
+
+            <HBox fx:id="Hbox" alignment="CENTER" spacing="15.0">
+                <padding>
+                    <Insets bottom="20.0" left=".0" right=".0" top="20.0" />
+                </padding>
+
+                <Text fx:id="t_Draw" text="Draw:" />
+
+                <Text fx:id="t_bowtie" text="bowtie" />
+
+                <Text fx:id="t_cloud" text="cloud" />
+
+                <Text fx:id="t_envelope" text="envelope" />
+
+                <Text fx:id="t_sun" text="sun" />
+
+                <Text fx:id="t_tshirt" text="T-shirt" />
+            </HBox>
+        </VBox>
+    </top>
+
+    <left>
+        <StackPane fx:id="stackPane_left" maxWidth="225" minWidth="225">
+            <padding>
+                <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+            </padding>
+
+            <Button fx:id="buttonClear" onAction="#onClearButtonClicked" text="clear">
+
+            </Button>
+        </StackPane>
+    </left>
+
+    <center>
+        <StackPane fx:id="stackPane_center" alignment="CENTER" maxHeight="600" maxWidth="600" minHeight="600" minWidth="600">
+            <Canvas fx:id="canvas" height="600" width="600" />
+        </StackPane>
+    </center>
+
+    <right>
+        <StackPane fx:id="stackPane_right" maxWidth="225" minWidth="225">
+            <padding>
+                <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+            </padding>
+
+            <Button fx:id="buttonRecognize" onAction="#onRecognizeButtonClicked" text="recognize">
+
+            </Button>
+        </StackPane>
+    </right>
+
+    <bottom>
+        <StackPane fx:id="stackPane_bottom" maxHeight="75" minHeight="75">
+            <padding>
+                <Insets bottom="20.0" left="0.0" right="0.0" top="20.0" />
+            </padding>
+
+            <Text fx:id="t_result" text="" />
+        </StackPane>
+    </bottom>
+
+</BorderPane>

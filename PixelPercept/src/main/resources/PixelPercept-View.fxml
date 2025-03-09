@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<VBox stylesheets="@helloapplication.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.uni_hannover.pixelpercept.controller.PixelPerceptController">
+
+    <children>
+
+        <HBox maxHeight="Infinity" VBox.vgrow="ALWAYS">
+            <VBox fx:id="Vbox" maxHeight="Infinity" HBox.hgrow="ALWAYS">
+                <MenuBar fx:id="menuBar">
+                    <Menu fx:id="menu" text="Menu">
+                        <MenuItem onAction="#onManual" text="Manual" />
+                        <MenuItem onAction="#onExit" text="Exit" />
+                    </Menu>
+                </MenuBar>
+
+                <HBox fx:id="Hbox" alignment="CENTER" maxHeight="Infinity" spacing="15.0" VBox.vgrow="ALWAYS">
+                    <padding>
+                        <Insets bottom="20.0" left=".0" right=".0" top="20.0" />
+                    </padding>
+
+                    <Text fx:id="t_Draw" text="Draw:" />
+                    <Text fx:id="t_bowtie" text="bowtie" />
+                    <Text fx:id="t_cloud" text="cloud" />
+                    <Text fx:id="t_envelope" text="envelope" />
+                    <Text fx:id="t_sun" text="sun" />
+                    <Text fx:id="t_tshirt" text="T-shirt" />
+                </HBox>
+            </VBox>
+        </HBox>
+
+
+        <HBox alignment="CENTER" maxHeight="600" VBox.vgrow="ALWAYS">
+            <VBox fx:id="VBOX" disable="true" maxHeight="600.0" maxWidth="Infinity" minWidth="225.0" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS" />
+
+            <VBox>
+                <AnchorPane fx:id="stackPane_center" maxHeight="600" maxWidth="600" minHeight="600" minWidth="600">
+                    <Canvas fx:id="canvas" height="600" width="600" />
+                </AnchorPane>
+            </VBox>
+
+            <VBox maxHeight="600.0" minWidth="225.0" HBox.hgrow="ALWAYS">
+                <StackPane fx:id="stackPane_right" maxWidth="Infinity" VBox.vgrow="ALWAYS">
+                    <padding>
+                        <Insets bottom="30.0" left="0.0" right="30.0" top="30.0" />
+                    </padding>
+
+                    <VBox spacing="10">
+                        <Button fx:id="buttonRecognize" onAction="#onRecognizeButtonClicked" prefWidth="130" text="recognize">
+                        </Button>
+                        <Button fx:id="buttonSelected" onAction="#onButtonSelectedClicked" prefWidth="130" text="erase">
+                        </Button>
+                        <Button fx:id="buttonClear" onAction="#onClearButtonClicked" prefWidth="130" text="clear">
+                        </Button>
+                    </VBox>
+                </StackPane>
+            </VBox>
+        </HBox>
+
+        <HBox maxHeight="Infinity" VBox.vgrow="ALWAYS">
+            <StackPane fx:id="stackPane_bottom" maxHeight="Infinity" HBox.hgrow="ALWAYS">
+                <padding>
+                    <Insets bottom="20.0" left="0.0" right="0.0" top="20.0" />
+                </padding>
+
+                <Text fx:id="t_result" text="" />
+            </StackPane>
+        </HBox>
+    </children>
+</VBox>

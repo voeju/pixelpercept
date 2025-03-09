@@ -1,0 +1,85 @@
+.root{
+    -fx-font-family: "Courier New";
+    -fx-text-color: "#003049";
+}
+
+.label{
+    -fx-font-family: "Courier New";
+    -fx-text-fill: "#003049";
+}
+
+#Hbox{
+    -fx-font-size: 18;
+}
+
+#menuBar{
+    -fx-background-color: "#FCBF49";
+}
+
+#Hbox{
+    -fx-background-color: "#EAE2B7"
+}
+
+#titleLabel{
+    -fx-font-size: 60;
+}
+
+#buttonClear{
+    -fx-font-family: "Courier New";
+    -fx-background-color: "#F77F00";
+    -fx-display: inline-block;
+    -fx-border: none;
+    -fx-font-size: 18px;
+    -fx-padding: 15px 15px;
+    -fx-border-radius: 11px;
+    -fx-border-color: "#F77F00";
+    -fx-transition-duration: 24s;
+    -fx-cursor: pointer;
+}
+
+#buttonClear:hover {
+    -fx-background-color: "#EAE2B7";
+}
+
+#buttonRecognize{
+    -fx-font-family: "Courier New";
+    -fx-background-color: "#F77F00";
+    -fx-display: inline-block;
+    -fx-border: none;
+    -fx-font-color: "#003049";
+    -fx-font-size: 18px;
+    -fx-padding: 15px 15px;
+    -fx-border-radius: 11px;
+    -fx-border-color: "#F77F00";
+    -fx-transition-duration: 0.4s;
+    -fx-transition: all 0.5s;
+    -fx-cursor: pointer;
+}
+
+#buttonRecognize:hover {
+    -fx-background-color: "#EAE2B7";
+}
+
+#stackPane_left{
+    -fx-background-color: "#EAE2B7"
+}
+
+#stackPane_center{
+    -fx-background-color: "#EAE2B7";
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-color: "#003049";
+    -fx-border-radius: 11px;
+}
+
+#stackPane_bottom{
+    -fx-background-color: "#EAE2B7";
+}
+
+#stackPane_right{
+    -fx-background-color: "#EAE2B7"
+}
+
+#t_result{
+    -fx-font-size: 18;
+}

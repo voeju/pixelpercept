@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PixelPercept:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PixelPercept_jar</output-path>
+    <root id="archive" name="PixelPercept.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="PixelPercept.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/17.0.6/c500ec44fd60e74a11021c71c0e6127dc31bc41d/javafx-fxml-17.0.6-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.2/6f9f8621d8230cd38aa42e58ccbc0c00569131ce/junit-platform-commons-1.9.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.2/40aeef2be7b04f96bb91e8b054affc28b7c7c935/junit-platform-engine-1.9.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/17.0.6/808b77ecf79be87b304a78fa9fffad805bfdb9f5/javafx-base-17.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/17.0.6/548ae43836cdba76530eeeafef197d1f539eee17/javafx-base-17.0.6-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.2/fed843581520eac594bc36bb4b0f55e7b947dda9/junit-jupiter-api-5.9.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.2/572f7a553b53f83ee59cc045ce1c3772864ab76c/junit-jupiter-engine-5.9.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/17.0.6/8a9b91d717ec8bcdb179b91ae8a4f1137756fe3a/javafx-controls-17.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/17.0.6/f25aeef6fad7ae52bafb2218a9ce80c2e9d6588e/javafx-controls-17.0.6-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/17.0.6/c24e954d2f9d5970625b2d6d7a775c07c0319f19/javafx-graphics-17.0.6-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/17.0.6/a71a20fc765c578c17e6bd6525c029b03286ff5e/javafx-graphics-17.0.6.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+      <element id="library" level="project" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" />
+      <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.9.2" />
+      <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.9.2" />
+      <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-commons:1.9.2" />
+      <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-engine:1.9.2" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-base:17.0.6" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-base:linux:17.0.6" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-controls:17.0.6" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-controls:linux:17.0.6" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-fxml:linux:17.0.6" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-graphics:17.0.6" />
+      <element id="library" level="project" name="Gradle: org.openjfx:javafx-graphics:linux:17.0.6" />
+      <element id="library" level="project" name="Gradle: org.opentest4j:opentest4j:1.2.0" />
+    </root>
+  </artifact>
+</component>
